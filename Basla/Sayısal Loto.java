@@ -13,7 +13,7 @@ public class Merhaba {
 		int [] loto=new int[6];
 		out.print("Sayısal loto çekilişleri:\n");
 		for(int i=0; i<6; i++) {
-			loto[i]=(int)(Math.random()*49+1);
+			loto[i]=(int)(Math.random()*100+1);
 			for(int j=0; j<i; j++) {
 				if(loto[i]==loto[j])
 					i--;
